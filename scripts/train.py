@@ -147,7 +147,7 @@ def main():
     
     if not os.path.exists(results_file_path):
         with open(results_file_path, 'w') as f:
-            f.write("mol,epochs,random_seed,mae,mse,r2,pearson\n")
+            f.write("mol,epochs,random_seed,mae,mse,rmse,r2,pearson\n")
     print(f"Running for mol={config['mol']}, epochs={num_epochs}, random_seed={random_seed}")
     
     inputs, labels = load_data(config["input_csv_path"], config["label_csv_path"])
