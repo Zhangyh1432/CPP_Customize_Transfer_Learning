@@ -22,7 +22,7 @@ This is the official implementation of: Customization Design of Circularized Pol
 │   ├── baseline_svr.py  
 │   ├── baseline_xgb.py   
 │   ├── demo.ipynb        # Demo script
-│   ├── train.py          # Training and validation script  
+│   ├── train.py          # Forward Prediction Model training and validation script  
 │   ├── reverse.py        # Inverse design Screening script  
 │   └── utils.py          # Utility functions
 └── virtual_database      # Virtual database
