@@ -39,7 +39,7 @@ ckpt_dir = "/root/CPP_Customize_Transfer_Learning/ckpt/model"
 results_file_path = '/root/CPP_Customize_Transfer_Learning/result/base_results_summary.csv'
 
 num_epochs = 300
-random_seed_list = [2024, 2025, 2026, 2027, 2028, 2029]
+random_seed_list = [2024]
 
 
 
