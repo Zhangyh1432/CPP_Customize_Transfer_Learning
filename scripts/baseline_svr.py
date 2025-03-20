@@ -45,7 +45,7 @@ results_file_path = '/root/CPP_Customize_Transfer_Learning/result/baseline_svr_r
 
 # Different configurations for epochs and random seeds
 # random_seeds = [66,6547,345,351,661]
-random_seeds = [2024, 2025, 2026, 2027, 2028, 2029]
+random_seeds = [2024]
 
 class CombinedModel(nn.Module):
     def __init__(self, autoencoder, P_spectra_dim, output_dim):
