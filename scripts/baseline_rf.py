@@ -46,7 +46,7 @@ ckpt_dir = "/root/CPP_Customize_Transfer_Learning/ckpt/model"
 results_file_path = '/root/CPP_Customize_Transfer_Learning/result/baseline_rf_results_summary.csv'
 
 # Different configurations for epochs and random seeds
-random_seeds = [2024, 2025, 2026, 2027, 2028, 2029]
+random_seeds = [2024]
 
 
 
