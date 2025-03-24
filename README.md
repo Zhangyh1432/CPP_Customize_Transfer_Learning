@@ -14,6 +14,10 @@ This is the official implementation of: Customization Design of Circularized Pol
 │   ├── all               # Complete dataset
 │   ├── demo              # Random-split dataset for demo
 │   └── P_mol_spectra     # Phosphorescent molecular emission spectra
+├── Pretrain              # Pretrain
+│   ├── ckpt              # autoencoder model weight
+│   ├── data              # Pretrain dataset  
+│   └── train.py          # Pretrain Model training and validation script    
 ├── README.md             # Documentation
 ├── result                # Results
 ├── scripts               # Code directory
@@ -53,7 +57,17 @@ We provide demo.ipynb, a Jupyter Notebook that allows researchers to:
 
 Note: In the demo, the model uses a randomly split training/test set, enabling researchers to obtain experimental results more quickly. However, the paper employs 10-fold cross-validation and reports the average prediction performance across all data. If you wish to strictly follow the methodology described in the paper, please refer to the next section.
 
+### Pretraining 
 
+The dataset in the `Pretrain/data` directory is compressed as `data.zip`. Ensure it is properly extracted before running the training script.
+
+Execute the following command to train and validate the pretrain model:
+
+```bash
+python Pretrain/train.py
+```
+
+Once training is complete, the model weights will be saved in the `Pretrain/ckpt` directory. If needed for transfer learning, manually move the pre-trained autoencoder weights to `ckpt/autoencoder` for further use.
 
 ### Training and Evaluating the Forward Prediction Model
 
