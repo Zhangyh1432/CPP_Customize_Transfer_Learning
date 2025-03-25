@@ -21,7 +21,6 @@ This is the official implementation of: Customization Design of Circularized Pol
 ├── README.md             # Documentation
 ├── result                # Results
 ├── scripts               # Code directory
-│   ├── baseline_lgb.py  
 │   ├── baseline_rf.py   
 │   ├── baseline_svr.py  
 │   ├── baseline_xgb.py   
